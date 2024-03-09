@@ -33,7 +33,7 @@ let promedio = function(){
 
 
 
-let respuesta = prompt("¿Querés tener un promedio de los números?").toLowerCase()
+let respuesta = prompt("¿Querés un promedio de cinco números? (Si o No)").toLowerCase()
 if (respuesta == "si"){
     promedio()
 } else {
